@@ -1,0 +1,113 @@
+/*body {*/
+/*    padding: 0;*/
+/*    margin: 0;*/
+/*    font-family: '微软雅黑';*/
+/*    color: #75433a;*/
+/*}*/
+
+.el-header {
+    text-align: center;
+    height: 20px !important;
+}
+.el-header .el-button {
+    float: right;
+}
+
+#cert {
+    margin: 0 auto;
+    font-family: '微软雅黑';
+    color: #75433a;
+    position: relative;
+    display: -webkit-flex; /* Safari */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 620px;
+    height: 877px;
+}
+
+#form {
+    padding: 56px 100px 0;
+}
+
+#bg {
+    width: 100%;
+}
+
+#main {
+    position: absolute;
+    height: 706px;
+    width: 416px;
+    margin-top: 87px;
+    padding: 0 2px;
+}
+
+#cert span {
+    font-size: 15px;
+    color: #070100;
+}
+
+#logo, #title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#logo {
+    height: 166px;
+}
+
+#logo img {
+    height: 128px;
+}
+
+#title {
+    margin-top: 4px;
+    height: 75px;
+}
+
+#title img {
+    height: 75px;
+}
+
+#content {
+    margin-top: 50px;
+    height: 188px;
+    line-height: 36px;
+    text-indent: 2em;
+    font-size: 18px;
+}
+
+#content span {
+    border-bottom: 1px solid #75433a;
+}
+
+#date, #remark {
+    padding: 0 25px;
+}
+
+#date {
+    height: 30px;
+    line-height: 26px;
+    font-size: 18px;
+}
+
+#remark {
+    display: flex;
+    margin-top: 34px;
+    height: 30px;
+    font-size: 13px;
+    line-height: 19px;
+}
+
+#remark .left {
+    width: 40px;
+}
+
+#company {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 80px;
+    font-size: 14px;
+    margin-right: 5px;
+}
